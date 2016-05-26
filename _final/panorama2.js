@@ -2,8 +2,7 @@ require('aframe')
 import React, { Component } from 'react'
 import { Scene, Entity } from 'aframe-react'
 import { Provider, connect } from 'react-redux'
-import { clickHandler, nextPanorama } from 'store'
-import { createStore } from 'redux'
+import { nextPanorama } from 'store'
 
 class Panorama extends Component {
   render () {
