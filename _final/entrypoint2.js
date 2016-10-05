@@ -1,6 +1,6 @@
 import React from 'react'
 import { render } from 'react-dom'
-import Panorama from 'panorama2'
+import Panorama from 'panorama'
 import { clickHandler } from 'store'
 import { createStore } from 'redux'
 

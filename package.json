@@ -13,7 +13,8 @@
     "redux": "^3.5.2"
   },
   "scripts": {
-    "build": "webpack",
+    "build": "./scripts/build.sh",
+    "build-js": "webpack -p --define process.env.NODE_ENV='\"production\"'",
     "serve": "twistd -n web --path ./src -p 8087",
     "serve-js": "webpack-dev-server --content-base src --progress --watch --history-api-fallback --inline --hot --host 0.0.0.0 --port 8088"
   },
