@@ -3,7 +3,7 @@ var webpack = require('webpack');
 require('babel-polyfill');
 
 var ENTRY_POINTS = [
-  './src/js/entrypoint2'
+  './src/js/entrypoint'
 ];
 
 var JS_LOADERS = [
