@@ -13,6 +13,3 @@ cp ./src/html/production/* ./build/
 
 # Copy images to build folder
 cp -r ./src/images/ ./build/images
-
-# Remove js files from src
-rm ./src/js/*.js
